@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AreasActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/areas_toolbar">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/areasGrid"
+        android:padding="10dp"
+        android:columnCount="4">
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kothrud\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kothrud">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kasba\nPeth"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kasbaPeth">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Budhwar\nPeth"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_budhwarPeth">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Shivaji\nNagar"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_shivajinagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Camp\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_camp">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Bund\nGarden"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_bundGarden">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Koregaon\nPark"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kp">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Swargate\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_swargate">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Parvati\nHill"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_parvatiHill">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Mukund\nNagar"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_mukundnagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Khadki\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_khadki">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Aundh\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_aundh">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Ganeshkhind\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_ganeshkhind">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Dattawadi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_dattawadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Anand\nNagar"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_anandnagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Bibwewadi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_bibwewadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <!---->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Yerwada\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_yerwada">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kalyani\nNagar"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kalyaninagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Viman\nNagar"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_vimannagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Shastri\nNagar"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_shastrinagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kharadi\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kharadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Vishrantwadi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_vishrantwadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Wanowrie\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_wanowrie">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Hadapsar\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_hadapsar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Baner\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_baner">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Balewadi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_balewadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Pashan\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_pashan">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Bavdhan\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_bavdhan">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Warje\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_warje">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Katraj\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_katraj">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="NIBM\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_nibm">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kondhwa\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kondhwa">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <!---->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Undri\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_undri">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Wagholi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_wagholi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Dhanori\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_dhanori">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Sus\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_sus">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kirkatwadi\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kirkatwadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Pisoli\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_pisoli">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Lohegaon\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_lohegaon">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kondhawe\nDhawade"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kondhaweDhawade">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Uttam\nNagar"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_uttamnagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Pimprigaon\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_pimprigaon">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Chikhli\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_chikhli">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Kalewadi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_kalewadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Pimple\nSaudagar"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_pimpleSaudagar">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Chinchwad\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_chinchwad">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Dapodi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_dapodi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Hinjewadi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_hinjewadi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <!---->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Bhosari\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_bhosari">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Dighi\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_dighi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Akurdi\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_akurdi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Nigdi\n"
+
+                    android:textAllCaps="false"
+                    android:id="@+id/area_nigdi">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1.5dp"
+                android:layout_marginRight="4.5dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="20dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/hostel_resized"
+                    android:background="@null"
+                    android:text="Talawade\n"
+                    android:textAllCaps="false"
+                    android:id="@+id/area_talawade">
+
+                </Button>
+            </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+        
+        
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="About us"
+        android:id="@+id/main_about_btn"/>
+
+    <item android:title="Wishlist"
+        android:id="@+id/main_wishlist_btn"/>
+
+    <item android:title="Account settings"
+        android:id="@+id/main_account_btn"/>
+
+    <item android:title="Choose Another Area"
+        android:id="@+id/main_area_btn"/>
+
+    <item android:title="Logout"
+        android:id="@+id/main_logout_btn"/>
+
+</menu>

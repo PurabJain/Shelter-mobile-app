@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskActivity"
+    android:background="@mipmap/wel_module">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Want To"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+    </TextView>
+
+        <ImageButton
+            android:id="@+id/upload_hostel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="431dp"
+            android:layout_marginEnd="231dp"
+            android:layout_marginBottom="146dp"
+            android:background="@null"
+            android:src="@mipmap/circle_back" />
+
+        <ImageView
+            android:id="@+id/upload_icon"
+            android:layout_width="114dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="446dp"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="199dp"
+            android:alpha="0.8"
+            android:src="@drawable/cloud_upload_icon" />
+
+        <TextView
+            android:id="@+id/upload_hostel_tv"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/upload_icon"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="528dp"
+            android:layout_marginEnd="239dp"
+            android:layout_marginBottom="149dp"
+            android:text="Upload Hostel"
+            android:textColor="#FFF"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/search_hostel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="164dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="222dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="137dp"
+            android:background="@null"
+            android:src="@mipmap/circle_back" />
+
+        <ImageView
+            android:id="@+id/search_hostel_icon"
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="208dp"
+            android:src="@drawable/search_icon"
+            android:alpha="0.8"/>
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="249dp"
+            android:layout_marginTop="528dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="163dp"
+            android:text="Search Hostel"
+            android:textColor="#FFF"
+            android:textSize="18sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

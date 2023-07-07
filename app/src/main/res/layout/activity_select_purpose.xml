@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectPurposeActivity"
+    android:background="@mipmap/login_module">
+
+    <TextView
+        android:id="@+id/purpose_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Want To"
+        android:textColor="#FFF"
+        android:textSize="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <ImageButton
+        android:id="@+id/upload_hostel_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="399dp"
+        android:background="@null"
+        android:src="@mipmap/circle_back">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="486dp"
+        android:text="Upload Hostel"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="413dp"
+        android:src="@drawable/upload" />
+
+    <ImageButton
+        android:id="@+id/search_hostel_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="396dp"
+        android:background="@null"
+        android:src="@mipmap/circle_back">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="482dp"
+        android:text="Search Hostel"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="419dp"
+        android:layout_marginEnd="79dp"
+        android:src="@drawable/search" />
+
+</RelativeLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageUploadActivity"
+    android:background="@mipmap/wel_module"
+    android:orientation="vertical"
+    android:gravity="center">
+<!--
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/hostel_image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray">
+
+    </ImageView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload image"
+        android:layout_below="@+id/hostel_image1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/hostel_img_btn"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+-->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Images of the Hostel"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp">
+
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="568dp"
+        android:layout_marginBottom="40dp">
+
+        <GridLayout
+            android:id="@+id/hostel_upload_grid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                android:padding="20dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i1"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i2"
+                    android:background="@null"
+                    android:src="@drawable/add3"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i3"
+                    android:background="@null"
+                    android:src="@drawable/add3"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i4"
+                    android:background="@null"
+                    android:src="@drawable/add3"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i5"
+                    android:background="@null"
+                    android:src="@drawable/add3"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i6"
+                    android:background="@null"
+                    android:src="@drawable/add3"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                android:padding="20dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i7"
+                    android:background="@null"
+                    android:src="@drawable/add3"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <ImageButton
+                    android:id="@+id/i8"
+                    android:background="@null"
+                    android:src="@drawable/add3"
+                    android:alpha="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </ImageButton>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/upload_add_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@mipmap/w_bound"
+        android:text="Upload"
+        android:paddingBottom="5dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp">
+
+    </Button>
+
+
+</LinearLayout>

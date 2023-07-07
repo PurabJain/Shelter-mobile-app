@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010414">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp">
+
+        <ImageView
+            android:id="@+id/stdHostelImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#373737"
+            android:scaleType="fitXY">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/stdHostelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hostel Name"
+            android:layout_toRightOf="@+id/stdHostelImageView"
+            android:textColor="#FFF"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/stdHostelAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stdHostelName"
+            android:layout_toRightOf="@+id/stdHostelImageView"
+            android:textColor="#808080"
+            android:text="address of the hostel"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/stdPhoneBtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/stdHostelAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="48dp"
+            android:layout_toRightOf="@+id/stdHostelImageView"
+            android:src="@drawable/phonecall40">
+
+        </ImageButton>
+        <TextView
+            android:id="@+id/stdPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phone number"
+            android:textColor="#FFF"
+            android:layout_toRightOf="@+id/stdPhoneBtn"
+            android:layout_below="@+id/stdHostelAddress"
+            android:layout_marginTop="57dp"
+            android:layout_marginLeft="10dp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HostelDetailsActivity"
+    android:background="@mipmap/hostel_details_module"
+    android:orientation="vertical">
+<!--
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hostel Name"
+        android:id="@+id/details_hostelName"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_hostelName"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textPostalAddress"
+        android:lines="8"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:layout_marginTop="20dp"
+        android:id="@+id/details_address"
+        android:hint="Enter Hostel's Address">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_address"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textPostalAddress"
+        android:lines="8"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:id="@+id/details_facility"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Facilities Provided in Hostel">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_facility"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textPostalAddress"
+        android:lines="8"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:id="@+id/details_restriction"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Facilities Provided in Hostel">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_details_btn"
+        android:layout_below="@+id/details_restriction"
+        android:layout_marginTop="30dp"
+        android:text="Next >"
+        android:layout_marginHorizontal="10dp">
+
+    </Button>
+--><TextView
+    android:id="@+id/tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter Details of The Hostel"
+    android:textColor="#FFF"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:textSize="20sp"
+    android:layout_marginBottom="10dp">
+</TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <GridLayout
+            android:id="@+id/hostel_details_grid"
+            android:columnCount="1"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="14dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="10dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#696969"
+        app:cardCornerRadius="8dp">
+
+
+
+            <EditText
+                android:id="@+id/hostel_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:hint="Hostel Name"
+                android:textColorHint="#CCC"
+                android:textSize="20sp"
+                android:background="@null"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF">
+
+            </EditText>
+    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="10dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp">
+
+
+
+                <EditText
+                    android:id="@+id/owner_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:hint="Owner Name"
+                    android:textColorHint="#CCC"
+                    android:textSize="20sp"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFF">
+
+                </EditText>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="10dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp">
+
+
+
+                <EditText
+                    android:id="@+id/hostel_phno"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:hint="Hostel Phone Number"
+                    android:textColorHint="#CCC"
+                    android:textSize="20sp"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFF"
+                    android:maxLength="10"
+                    android:inputType="phone">
+
+                </EditText>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="10dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp">
+
+
+
+                <EditText
+                    android:id="@+id/address_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textAlignment="viewStart"
+                    android:hint="Enter Hostels Address"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="insideOverlay"
+                    android:textColorHint="#CCC"
+                    android:textSize="20sp"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFF">
+
+                </EditText>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="10dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp">
+
+
+
+                <EditText
+                    android:id="@+id/restriction_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textAlignment="viewStart"
+                    android:hint="Restrictions in Hostel\n(Please write point wise)\n1.\n2.\n3.\n"
+                    android:textColorHint="#CCC"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="insideOverlay"
+                    android:textSize="20sp"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFF">
+
+                </EditText>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginHorizontal="10dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#696969"
+                app:cardCornerRadius="8dp">
+
+
+
+                <EditText
+                    android:id="@+id/facilities_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:textAlignment="viewStart"
+                    android:hint="Facilities provided by Hostel\n(Please write point wise)\n1.\n2.\n3.\n"
+                    android:textColorHint="#CCC"
+                    android:textSize="20sp"
+                    android:scrollbars="vertical"
+                    android:scrollbarStyle="insideOverlay"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFF">
+
+                </EditText>
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/hd_next_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next >"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:background="@null"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_gravity="right"
+                android:textAllCaps="false"/>
+        </GridLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>
